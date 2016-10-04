@@ -10,12 +10,9 @@ void GetTemp(char adapter);
 
 int main(void)
 {
-  do
-  {
+    system("clear");
     menu();
-  }
-  while (menu() == 0);
-  return 0;
+    return 0;
 }
 
 int menu(void)
@@ -56,7 +53,7 @@ int menu(void)
   if (option == 'E')
     return 1;
   else
-    return 0;
+    main();
 }
 
 void GetClock(char adapter)
