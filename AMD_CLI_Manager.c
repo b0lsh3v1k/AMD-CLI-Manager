@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
         "[+]-------------AMD CLI MANAGER by b0lsh3v1k-------------[+]\n"
         "\nToo few arguments. Atleast 2 required (option and adapter)"
         "\n./AMDManager F (Set fan speed) 0 (#adapter)"
-        "\n./AMDManager L (List available adapters) 0 (#adapter)"
+        "\n./AMDManager L (List available adapters)"
         "\n./AMDManager G (Get clock speeds) 0 (#adapter)"
         "\n./AMDManager S (Set new clock speeds) 0 (#adapter)"
         "\n./AMDManager C (Check temperature) 0 (#adapter)"
